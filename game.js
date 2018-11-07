@@ -9,7 +9,7 @@ var config =
         default: "arcade",
         arcade: 
         {
-            debug: true,
+            //debug: true,
             gravity: { y: 0 }
         }
     },
@@ -46,11 +46,9 @@ function create()
     var map = this.make.tilemap({key: "map"});
 
     // TILESET
-    // Premier paramètre = nom du tileset dans Tiled
     var tileset = map.addTilesetImage("Overworld", "tiles");
 
     // LAYERS
-    // Premier paramètre = nom de la couche dans Tiled
     var solLayer = map.createStaticLayer("Sol", tileset, 0, 0);
     var batimentsLayer = map.createStaticLayer("Batiments", tileset, 0, 0);
     var deriereLayer = map.createStaticLayer("Deriere", tileset, 0, 0);
