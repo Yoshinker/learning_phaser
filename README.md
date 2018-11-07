@@ -16,7 +16,7 @@ python -m SimpleHTTPServer 8080
 python -m http.server 8080
 ```
 
-__of course, you can replace 8080 by the port of your choice__
+__(of course, you can replace 8080 by the port of your choice)__
 
 Now, go on localost:8080 with your web browser. Enjoy!
 
