@@ -18,5 +18,5 @@ python -m http.server 8080
 
 __(of course, you can replace 8080 by the port of your choice)__
 
-Now, go on localost:8080 with your web browser. Enjoy!
+Now, go on localhost:8080 with your web browser. Enjoy!
 
